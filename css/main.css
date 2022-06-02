@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Raleway:wght@900&display=swap');
+/*    font-family: 'Manrope', sans-serif;
+
+    font-family: 'Raleway', sans-serif;*/
+body {
+	font-family: 'Manrope', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #18191F;
+}
+
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	max-width: 1130px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 16px 0;
+}
+.logo {
+	display: flex;
+	align-items: center;
+}
+.logo span {
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+}
+.logo-icon {
+	margin-right: 10px;
+}
+.logo-title {
+}
+.navigation {
+}
+.nav {
+}
+.nav__list {
+	display: flex;
+}
+.nav__list-item {
+	margin-right: 32px;
+}
+.nav__list-item-link {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	color: #18191F;
+	transition: ease .2s;
+}
+.nav__list-item-link:hover {
+	font-size: 16px;
+}
+.download {
+}
+.download__cards {
+}
+.download-card {
+	margin-left: 12px;
+	cursor: pointer;
+}
+
+
+.section {
+	flex: 1 1 auto;
+}
+.content_wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 220px;
+	padding-bottom: 200px;
+}
+.info {
+	margin-right: 38px;
+}
+.info__title {
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 98px;
+	padding-bottom: 16px;
+}
+.subtitle {
+	font-size: 18px;
+	line-height: 32px;
+	padding-bottom: 48px;
+}
+.btn {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #fff;
+	padding: 18px 34px;
+	background: #8C30F5;
+	border-radius: 8px;
+	transition: ease .2s;
+}
+.btn:hover{
+	font-size: 22px;
+}
+.picture {
+}
+.picture__img {
+}
+
+
+.footer {
+	background-color: #0B0D17;
+}
+.footer__wrapper {
+	padding: 19px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.copyright {
+}
+.copiryte-info {
+	font-size: 14px;
+	line-height: 24px;
+	color: #D9DBE1;
+}
+.socites {
+}
+.socites__links {
+	margin-left: 20px;
+}
+.socites__links-img {
+}
